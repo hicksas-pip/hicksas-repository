@@ -1,0 +1,18 @@
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+======================= RESTART: C:/Users/ahick/OneDrive/C200/hw01/hw01-script-L.py =======================
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/hw01/hw01-script-L.py", line 1, in <module>
+    thisIsOneStringVariable.upper()
+NameError: name 'thisIsOneStringVariable' is not defined
+>>> 
+======================= RESTART: C:/Users/ahick/OneDrive/C200/hw01/hw01-script-L.py =======================
+kindly type something and press <return> or <enter> hello
+HELLO
+>>> 
+======================= RESTART: C:/Users/ahick/OneDrive/C200/hw01/hw01-script-L.py =======================
+Enter quote: Hello World!
+Word to replace: Hello
+Word to replace it with: Goodbye
+New quote: Goodbye World!

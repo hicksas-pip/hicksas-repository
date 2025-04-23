@@ -1,0 +1,71 @@
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+3*(8/4)**2
+12.0
+8**4/18
+227.55555555555554
+(4+8)+(3**6)/2
+376.5
+8/2
+4.0
+8+2
+10
+8*2
+16
+>>> 8**2
+64
+>>> 48*48*5
+11520
+>>> 48**2/5
+460.8
+>>> int(2)
+2
+>>> int(2**2)
+4
+>>> x = 2**2
+>>> int(x)
+4
+>>> print(int(x))
+4
+>>> x = "20"
+>>> int(x)
+20
+>>> 2%2
+0
+>>> 2%3
+2
+>>> 2%4
+2
+>>> 2%5
+2
+>>> 5%5
+0
+>>> 100%4
+0
+>>> 4%100
+4
+>>> 40%100
+40
+>>> #% means takes the percent of a number
+>>> 4//2
+2
+>>> 5//2
+2
+>>> 4//3
+1
+6//6
+1
+5//5
+1
+7//1
+7
+1//7
+0
+#// tells you how many times a number goes into another
+#+ adds
+#subtracts
+#- subtracts
+#/divides
+#*multiplies
+#**is exponent
+#int( turns strings into integers

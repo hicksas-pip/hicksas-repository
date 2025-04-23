@@ -1,0 +1,284 @@
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces ("The animal's speed is ", 80, 'meters per second')
+speedometer(-1, 5, 0.5) produces ("The animal's speed is ", 12, 'meters per second')
+speedometer(0, 0, 1.0) produces ("The animal's speed is ", 0, 'meters per second')
+speedometer(6, -100, 3) produces ("The animal's speed is ", -35, 'meters per second')
+Testing animal_average_speed()
+animal_average_speed(0,) produces None
+animal_average_speed(1,) produces None
+animal_average_speed(2,) produces None
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+speedometer(1,25,10)
+("The animal's speed is ", 2, 'meters per second')
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces ('The animals speed is', 80, 'meters per second')
+speedometer(-1, 5, 0.5) produces ('The animals speed is', 12, 'meters per second')
+speedometer(0, 0, 1.0) produces ('The animals speed is', 0, 'meters per second')
+speedometer(6, -100, 3) produces ('The animals speed is', -35, 'meters per second')
+Testing animal_average_speed()
+animal_average_speed(0,) produces None
+animal_average_speed(1,) produces None
+animal_average_speed(2,) produces None
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+speedometer(1,25,10)
+('The animals speed is', 2, 'meters per second')
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces ('The animals speed is', 80, 'meters per second')
+speedometer(-1, 5, 0.5) produces ('The animals speed is', 12, 'meters per second')
+speedometer(0, 0, 1.0) produces ('The animals speed is', 0, 'meters per second')
+speedometer(6, -100, 3) produces ('The animals speed is', -35, 'meters per second')
+Testing animal_average_speed()
+animal_average_speed(0,) produces None
+animal_average_speed(1,) produces None
+animal_average_speed(2,) produces None
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+speedometer(1,25,10)
+('The animals speed is', 2, 'meters per second')
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces ('The animals speed is', 80, 'meters per second')
+speedometer(-1, 5, 0.5) produces ('The animals speed is', 12, 'meters per second')
+speedometer(0, 0, 1.0) produces ('The animals speed is', 0, 'meters per second')
+speedometer(6, -100, 3) produces ('The animals speed is', -35, 'meters per second')
+Testing animal_average_speed()
+animal_average_speed(0,) produces None
+animal_average_speed(1,) produces None
+animal_average_speed(2,) produces None
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+speedometer(1,25,10)
+"('The animals speed is', 2, 'meters per second')"
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces None
+animal_average_speed(1,) produces None
+animal_average_speed(2,) produces None
+animal_average_speed(3,) produces None
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+speedometer(1,25,10)
+2
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+Enter 0 for Sailfish, 1 for Goose, and 2 for Wildebeest
+animal_average_speed(0,) produces This is not an available animal
+Enter 0 for Sailfish, 1 for Goose, and 2 for Wildebeest
+animal_average_speed(1,) produces This is not an available animal
+Enter 0 for Sailfish, 1 for Goose, and 2 for Wildebeest
+animal_average_speed(2,) produces This is not an available animal
+Enter 0 for Sailfish, 1 for Goose, and 2 for Wildebeest
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed()
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    animal_average_speed()
+TypeError: animal_average_speed() missing 1 required positional argument: 'animal_type'
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces This is not an available animal
+animal_average_speed(1,) produces This is not an available animal
+animal_average_speed(2,) produces This is not an available animal
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed(0)
+'This is not an available animal'
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces This is not an available animal
+animal_average_speed(1,) produces This is not an available animal
+animal_average_speed(2,) produces This is not an available animal
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed(0)
+'This is not an available animal'
+animal_average_speed(1)
+'This is not an available animal'
+animal_average_speed(2)
+'This is not an available animal'
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces This is not an available animal
+animal_average_speed(1,) produces This is not an available animal
+animal_average_speed(2,) produces This is not an available animal
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed("0")
+'This is not an available animal'
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces <function animal_average_speed at 0x000001B3D5A394E0>
+animal_average_speed(1,) produces <function animal_average_speed at 0x000001B3D5A394E0>
+animal_average_speed(2,) produces <function animal_average_speed at 0x000001B3D5A394E0>
+animal_average_speed(3,) produces <function animal_average_speed at 0x000001B3D5A394E0>
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed(0)
+<function animal_average_speed at 0x000001B3D5A394E0>
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces This is not an available animal
+animal_average_speed(1,) produces This is not an available animal
+animal_average_speed(2,) produces This is not an available animal
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+animal_average_speed(0)
+'This is not an available animal'
+
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces 68
+animal_average_speed(1,) produces 88
+animal_average_speed(2,) produces 50
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces None
+animal_speed_compare(0.0, 400, 5.0, 0) produces None
+animal_speed_compare(25, 150, 1.0, 2) produces None
+>>> 
+====================== RESTART: C:/Users/ahick/OneDrive/C200/lab04/lab04-functions.py =====================
+Final Test Code
+
+Testing speedometer()
+speedometer(0.0, 400, 5.0) produces 80
+speedometer(-1, 5, 0.5) produces 12
+speedometer(0, 0, 1.0) produces 0
+speedometer(6, -100, 3) produces -35
+Testing animal_average_speed()
+animal_average_speed(0,) produces 68
+animal_average_speed(1,) produces 88
+animal_average_speed(2,) produces 50
+animal_average_speed(3,) produces This is not an available animal
+Testing animal_speed_compare()
+animal_speed_compare(0.0, 400, 5.0, 1) produces The animal is slower
+animal_speed_compare(0.0, 400, 5.0, 0) produces The animal is faster
+animal_speed_compare(25, 150, 1.0, 2) produces The animal is faster
+>>> spedometer(0.0, 400, 5.0)
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    spedometer(0.0, 400, 5.0)
+NameError: name 'spedometer' is not defined. Did you mean: 'speedometer'?
+>>> speedometer(0.0, 400, 5.0)
+80
+>>> animal_average_speed(1)
+88
+>>> animal_average_speed(0)
+68
+>>> speedometer(25, 150, 1.0)
+125
+>>> animal_average_speed(2)
+50

@@ -1,0 +1,215 @@
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+max_num()
+[DEBUG ON]
+[DEBUG OFF]
+
+============================================== RESTART: Shell =============================================
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab03-functions.py", line 2, in <module>
+    print(max_num(f))
+NameError: name 'max_num' is not defined
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab03-functions.py", line 2, in <module>
+    max_num(f)
+NameError: name 'max_num' is not defined
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab03-functions.py", line 2, in <module>
+    max_num(x)
+NameError: name 'max_num' is not defined
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+int(4.7) + 5
+9
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+4
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+square(5)
+25
+square(2.2)
+4.840000000000001
+square(2.2) + 6
+10.84
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+the square of -6 is 36
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+square2(3)
+9
+square2(2.7)
+7.290000000000001
+num
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    num
+NameError: name 'num' is not defined. Did you mean: 'sum'?
+result
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    result
+NameError: name 'result' is not defined
+square3(5)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    square3(5)
+NameError: name 'square3' is not defined. Did you mean: 'square'?
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+square3(5)
+25
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+double_dash("na")
+'na-na'
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+box_volume(2,5,1)
+10
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+square(2)
+4
+square(8)
+64
+help(square)
+Help on function square in module __main__:
+
+square(n)
+    returns the square of n
+
+    Number -> Number
+
+square4(20)
+We're inside the function square4.
+Here, the variable result has the value 400
+400
+help(square)
+Help on function square in module __main__:
+
+square(n)
+    returns the square of n
+
+    Number -> Number
+
+help(square2)
+Help on function square2 in module __main__:
+
+square2(num)
+
+
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+help(square)
+Help on function square in module __main__:
+
+square(n)
+    returns the square of n
+
+    Number -> Number
+
+help(square2)
+Help on function square2 in module __main__:
+
+square2(num)
+    returns the square of num
+
+    Number -> Number
+
+help(square3)
+Help on function square3 in module __main__:
+
+square3(num)
+    returns the square of num
+
+    Number -> Number
+
+help(square4)
+Help on function square4 in module __main__:
+
+square4(num)
+    returns the square of num
+
+    Number -> Number
+
+>>> help(double_dash)
+Help on function double_dash in module __main__:
+
+double_dash(text)
+    returns input twice with a dash inbetween
+
+    String -> String
+
+>>> help(box_volume)
+Help on function box_volume in module __main__:
+
+box_volume(width, height, depth)
+    returns the volume of a box given the inputs
+
+    Number -> Number
+
+>>> 
+========================= RESTART: C:/Users/ahick/OneDrive/C200/lab03-functions.py ========================
+Currently, the variable result has the value 100
+We're about to call the function square4.
+We're inside the function square4.
+Here, the variable result has the value 2.25
+square4(1.5) is 2.25
+We've just finished calling square4.
+Now, result has the value 100
+>>> help(box_volume)
+Help on function box_volume in module __main__:
+
+box_volume(width, height, depth)
+    returns the volume of a box given the inputs
+
+    Number, Number, Number -> Number
+

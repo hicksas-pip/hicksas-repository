@@ -1,0 +1,167 @@
+Python 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print("Please input some text: ")
+
+Please input some text: 
+input
+<built-in function input>
+input()
+some text
+'some text'
+print(input("Please input some text :"))
+Please input some text : Hello
+ Hello
+user_input = print(input("Please input some text: "))
+Please input some text: some text
+some text
+print("Please input some text: ")
+input()
+SyntaxError: multiple statements found while compiling a single statement
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please input some text: 
+hello
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please input some text: 
+some text
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please input some text: 
+hello world
+The text you inputted was: 
+hello world
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Enter your text here ---> hello world
+The text you inputted was: 
+ hello world
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Enter your text here ---> some text
+The text you inputted was: 
+some text
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Enter your text here ---> hello world
+The text you inputted was: 
+hello world
+Enter a number: 48
+Your number times itself is: 
+4848
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Enter your text here ---> x
+The text you inputted was: 
+x
+Enter a number: 48
+Your number times itself is: 
+96.0
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: Alex Hicks
+Please enter your age: 18
+Alex Hicks
+18
+Welcome, Alex Hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 9, in <module>
+    print("Double your age is: " + double_age)
+TypeError: can only concatenate str (not "int") to str
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: Alex Hicks
+Please enter your age: 18
+Welcome, Alex Hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 6, in <module>
+    print("Double your age is: " + double_age)
+TypeError: can only concatenate str (not "float") to str
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: Alex Hicks
+Please enter your age: 18
+Welcome, Alex Hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 6, in <module>
+    print("Double your age is: " + double_age)
+TypeError: can only concatenate str (not "float") to str
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: Alex Hicks
+Please enter your age: 18
+Welcome, Alex Hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 6, in <module>
+    print("Double your age is: " + float(user_input) * 2)
+NameError: name 'user_input' is not defined
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: Alex Hicks
+Please enter your age: 18
+Welcome, Alex Hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 6, in <module>
+    print("Double your age is: " + float(user_age) * 2)
+TypeError: can only concatenate str (not "float") to str
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 6, in <module>
+    print("Double your age is: " + double_age)
+TypeError: can only concatenate str (not "int") to str
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 1818
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 1818.0
+
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 3, in <module>
+    double_age = int(user_age * user_age)
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 1818
+>>> 
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 1818
+>>> 
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 1818.0
+>>> 
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicls
+Please enter your age: 18
+Traceback (most recent call last):
+  File "C:/Users/ahick/OneDrive/C200/lab02-task-A.py", line 3, in <module>
+    double_age = (float(user_input) * 2)
+NameError: name 'user_input' is not defined
+>>> 
+========================== RESTART: C:/Users/ahick/OneDrive/C200/lab02-task-A.py ==========================
+Please enter your name: alex hicks
+Please enter your age: 18
+Welcome, alex hicks.
+Double your age is: 36.0
