@@ -118,25 +118,56 @@ def queue_it(bandAndSong, genres, q):
 class Stack:
     def __init__(self):
         self.s = []
-    
+
     def pop(self):
-        pass
-    
+        if not self.isEmpty():
+            return self.s.pop()
+        return None
+
     def push(self, item):
-        pass
+        self.s.append(item)
 
     def isEmpty(self):
-        pass
-    
+        return len(self.s) == 0
+
     def peek(self):
-        pass
+        if not self.isEmpty():
+            return self.s[-1]
+        return None
 
     def __str__(self):
         return str(self.s)
 
 
 def editor(lst):
-    pass
+    """
+    takes a list of commands and returns final text
+
+    list -> str
+    """
+    text = Stack()
+    redo = Stack()
+
+    for command in lst:
+        command = command.split()
+        
+        if command[0] == "TYPE":
+            text.push(command[1])
+            redo = Stack()
+        elif command[0] == "UNDO":
+            val = text.pop()
+            if val is not None:
+                redo.push(val)
+        elif command[0] == "REDO":
+            val = redo.pop()
+            if val is not None:
+                text.push(val)
+
+    result = ""
+    for char in text.s:
+        result += char
+
+    return result
 
 ########
 # Problem 5
